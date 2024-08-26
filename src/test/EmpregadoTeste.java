@@ -11,7 +11,7 @@ public class EmpregadoTeste {
         empregado1.setNome("Ronaldo Silva");
         empregado1.setEndereco("Rua 2");
         empregado1.setTelefone("987654321");
-        empregado1.setCodigoSetor(345);
+        empregado1.setCodigoSetor(1);
         empregado1.setSalarioBase(2000);
         empregado1.setImposto(9);
         empregados.add(empregado1);
@@ -20,7 +20,7 @@ public class EmpregadoTeste {
         empregado2.setNome("João Santos");
         empregado2.setEndereco("Rua 3");
         empregado2.setTelefone("123456789");
-        empregado2.setCodigoSetor(123);
+        empregado2.setCodigoSetor(2);
         empregado2.setSalarioBase(1412);
         empregado2.setImposto(7.5);
         empregados.add(empregado2);

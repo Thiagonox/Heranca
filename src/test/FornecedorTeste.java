@@ -4,7 +4,14 @@ import domain.Fornecedor;
 
 public class FornecedorTeste {
     public static void main(String[] args) {
-        Fornecedor fornecedor = new Fornecedor("Magnesita", "Rua 1", "123456789", 1000, 340);
+        Fornecedor fornecedor = new Fornecedor();
+
+        fornecedor.setNome("Magnesita");
+        fornecedor.setEndereco("Rua 1");
+        fornecedor.setTelefone("123456789");
+        fornecedor.setValorCredito(100000);
+        fornecedor.setValorDivida(5000);
+
         System.out.println("Nome: " + fornecedor.getNome());
         System.out.println("Endereço: " + fornecedor.getEndereco());
         System.out.println("Telefone: " + fornecedor.getTelefone());
